@@ -1,0 +1,90 @@
+body {
+    font-family: 'Gloock', Arial, Helvetica, sans-serif;
+    background-image: url(./sky.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FCFBF4;
+}
+
+section {
+    display: flex;
+    width: 80vw;
+    height: 100%;
+    border: 1px solid #222a46;
+    border-radius: 50px;
+    background-color: 	#222a46;
+    margin-top: 40px;
+    box-shadow: 5px 5px 10px #c3166a33;
+}
+
+img {
+    width: auto;
+    height: 650px;
+    margin: 0 20px 0 20px;
+    border-radius: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 0;
+}
+
+.form-container {
+    display: flex;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+/* F-NAME EMAIL PASSWD */
+.col1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+ /* L-NAME PHONE C-PASSWD */
+.col2 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ALL INPUTS */ 
+label {
+    margin-top: 40px;
+  }
+
+input{
+    position: relative;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #c3166a33;
+    background-color: #222a46;
+    box-shadow: 5px 5px 10px #c3166a33;
+    font-family: 'Gloock', Arial, Helvetica, sans-serif;
+    color: #FCFBF4;
+    font-size: 20px;
+}
+
+button {
+    font-family: 'Gloock', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    padding: 0;
+    margin: 50px 0 10px 0;
+    color: #FCFBF4;
+    border: 1px solid #c3166a33;
+    background-color: #222a46;
+    box-shadow: 5px 5px 10px #c3166a33;
+}
+
+a {
+    color: #FCFBF4;
+}
