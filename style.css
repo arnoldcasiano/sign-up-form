@@ -16,7 +16,7 @@ section {
     border: 1px solid #222a46;
     border-radius: 50px;
     background-color: 	#222a46;
-    margin-top: 40px;
+    margin-top: 130px;
     box-shadow: 5px 5px 10px #c3166a33;
 }
 
@@ -87,4 +87,37 @@ button {
 
 a {
     color: #FCFBF4;
+}
+
+@media (max-width: 1770px) {
+    body {
+        background-size: 125em;
+        background-repeat: no-repeat;
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        width: 80vw;
+        height: 50%;
+        border: 1px solid #222a46;
+        border-radius: 50px;
+        background-color: #222a46;
+        margin-top: 40px;
+        box-shadow: 5px 5px 10px #c3166a33;
+    }
+}
+
+@media (max-width: 1050px) {
+    body {
+        background-size: 150em;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 860px) {
+    body {
+        background-size: 200em;
+        background-repeat: no-repeat;
+    }
 }
